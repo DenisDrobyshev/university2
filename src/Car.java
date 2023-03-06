@@ -40,11 +40,5 @@ public class Car {
         }catch (NullPointerException exception){
             System.out.println("В словаре нет авто с таким ключом");
         }
-        // garage.add(myCar);
-        // garage.add(myCar2);
-
-        //for (Car car : garage) {
-            //car.start();
-        //}
     }
 }
