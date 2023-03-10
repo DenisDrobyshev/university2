@@ -11,15 +11,15 @@ public class Rimskaya_ss {
 
         for (int i = 0; i < Arabic.length; i++)
         {
-        count = arabicNumber / Arabic[i];
+            count = arabicNumber / Arabic[i];
 
             for (int j = 0; j < count; j++)
             {
-            romanNumber += Rim[i];
+                romanNumber += Rim[i];
             }
 
-        arabicNumber -= count * Arabic[i];
+            arabicNumber -= count * Arabic[i];
         }
-        System.out.println(romanNumber);
+            System.out.println(romanNumber);
         }
 }
