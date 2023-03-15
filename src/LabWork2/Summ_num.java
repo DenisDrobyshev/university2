@@ -1,3 +1,5 @@
+package LabWork2;
+
 import java.util.Scanner;
 public class Summ_num {
     public static void main(String[] args) {

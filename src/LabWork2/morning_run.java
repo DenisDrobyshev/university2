@@ -1,3 +1,5 @@
+package LabWork2;
+
 import java.util.Scanner;
 public class morning_run {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package LabWork2;
+
 import java.util.Scanner;
 public class summa_nat_delit {
     public static void main(String[] args) {
