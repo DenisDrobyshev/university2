@@ -46,18 +46,27 @@ public class HW2 {
 
         // Задача 10
         System.out.println("Задача 10, введите число: ");
-        int n5 = sc.nextInt();
-        int i5 = 0;
-        String k = "*";
-        String p = k;
-        String pr;
-        int nr = n5 - 1;
-        while (i5 < n5) {
+        int n10 = sc.nextInt();
+        int i10 = 0;
+        String star1 = "*", p = star1, pr;
+        int nr = n10 - 1;
+        while (i10 < n10) {
             pr = " ".repeat(nr);
             System.out.println(pr + p);
-            p = p + k + k;
-            i5++;
+            p = p + star1 + star1;
+            i10++;
             nr--;
+        }
+
+        System.out.println("Задача 10, второй вариант, введите число: ");
+        int i_10 = 1;
+        int n_10 = sc.nextInt();
+        String star_10 = "*";
+        int star2 = 1;
+        while (i_10 <= n_10) {
+            System.out.println(" ".repeat(n_10-i_10)+star_10.repeat(star2));
+            i_10++;
+            star2 += 2;
         }
     }
 }
